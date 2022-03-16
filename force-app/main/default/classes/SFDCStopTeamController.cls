@@ -323,6 +323,15 @@ public class SFDCStopTeamController {
             )
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Yogesh Biyani',
+                'https://trailblazer.me/profilephoto/7291I000000eCPC/M',
+                Date.newInstance(2022, 03, 01),
+                'https://trailblazer.me/id/ybiyani2'
+            )
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
